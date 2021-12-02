@@ -1,0 +1,165 @@
+@charset "utf-8";
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 300px;
+    font-weight: 500;
+    color:aliceblue ;
+    text-align: center;
+}
+span{
+    background: linear-gradient(90deg,orange,purple);-webkit-background-clip: text;
+    color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 57px;
+}
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 57px;
+}   
+footer{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 25px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    background-image: url(../images/angel-jimenez.jpg);
+    background-size: cover;
+    padding: 200px;
+    height: 456px;
+}
+#section2{
+    padding: 57px 90px;
+}
+#section3{
+    padding: 57px 90px;
+}
+#section4{
+    background-image: url(../images/john-raptis.png);
+    height: 790px;
+    color: white;
+}
+#section5{
+    height: 310px;
+    background-color: #fd4c5c;
+    padding: 110px;
+}
+#p1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 450;
+}
+#button1{
+    background-color: #fd4c5c;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 20px;
+    margin-top: 1px;
+    padding: 10px;
+    width: 114px;
+}
+.tables{
+    margin: 35px;
+    height: 250px;
+    width: 1035px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.contenedor{
+    float: right;
+    width: 43%;
+    margin-top: 230px;
+}
+.float1{
+    float: left;
+    margin-top: 185px;
+}
+.float2{
+    float: right; 
+}
+.float3{
+    float: right;
+    margin-top: 185px;
+}
+.float4{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+h3{
+    color: white;
+    font-weight: lighter;
+    font-size: medium;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1200px){
+    #titulo {
+        padding: 200px;
+        height: 276px;
+    }
+    h1 {
+        font-size: 208px;
+    }
+    .float2{
+        width: 600px;
+    }
+    .float1{
+        width: 250px;
+    }
+    .float3{
+        width: 250px;
+        margin-top: 35px;
+    }
+    .contenedor {
+        width: 49%;
+    }
+}
+@media screen and (max-width:992px){
+    #titulo{
+        width: 785px;
+    }
+    .img1{
+        width: 500px;
+    }
+    .float1{
+        width: 200px;
+        margin-top: 105px;
+    }
+    .float2 {
+        width: 256px;
+    }
+    .float3{
+        width: 200px;
+    }
+    .img2{
+        width: 560px;
+    }
+    #section4{
+        width: 1180px;
+    }
+    #section5{
+        width: 960px;
+    }
+}
+@media screen and (max-width:576px){
+    .img1 {
+        width: 500px;
+    }
+    #section2 {
+        padding: 62px 85px;
+        width: 720px;
+    }
+    #section3 {
+        padding: 57px 60px;
+        width: 890px;
+    }
+    
+}
